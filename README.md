@@ -60,3 +60,7 @@ ___
 3. Look on the left side of the class name — click the green **Run ▶** icon.
 4. IntelliJ will execute the test, and the browser will open automatically.
 
+## How To Generate Report
+1. Open Terminal
+2. allure generate --clean --single-file target/allure-results
+
