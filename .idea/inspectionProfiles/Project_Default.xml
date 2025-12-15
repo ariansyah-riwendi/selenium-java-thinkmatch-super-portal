@@ -9,35 +9,5 @@
     <inspection_tool class="SerializableRecordContainsIgnoredMembers" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="TestFailedLine" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="UnnecessaryModifier" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="isIgnoringEnabled" value="true" />
-      <option name="ignoredModules">
-        <list>
-          <option value="SeleniumJavaBasic1" />
-          <option value="SeleniumJavaBasic1" />
-          <option value="SeleniumJavaBasic1" />
-          <option value="SeleniumJavaBasic1" />
-          <option value="SeleniumJavaBasic1" />
-        </list>
-      </option>
-      <option name="ignoredPackages">
-        <list>
-          <option value="commons-collections:commons-collections:3.2.1" />
-          <option value="org.codehaus.jackson:jackson-mapper-asl:1.4.0" />
-          <option value="org.yaml:snakeyaml:1.6" />
-          <option value="org.apache.thrift:libthrift:0.6.1" />
-          <option value="org.apache.httpcomponents:httpclient:4.0.1" />
-        </list>
-      </option>
-      <option name="ignoredReasons">
-        <list>
-          <option value="Other" />
-          <option value="Not exploitable" />
-          <option value="Not exploitable" />
-          <option value="Not exploitable" />
-          <option value="Not exploitable" />
-        </list>
-      </option>
-    </inspection_tool>
   </profile>
 </component>
