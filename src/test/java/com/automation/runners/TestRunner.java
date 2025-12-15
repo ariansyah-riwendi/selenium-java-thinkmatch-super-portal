@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
                 "pretty",
                 "html:target/cucumber-report/cucumber-report.html",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-        tags = "@Dashboard"
+        tags = "@Test"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
